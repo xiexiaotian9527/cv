@@ -2,6 +2,7 @@ $(
     function () {
         // 启用全屏滚动插件
         $('#fullpage').fullpage({
+            scrollingSpeed: 500,
             navigation: true,
             navigationTooltips: ['首页', '关于我', '技能掌握', '作品Demo', '联系我']
         });
@@ -14,9 +15,9 @@ $(
             function () {
                 // 给下个背景图添加显示的Class,并清除其余背景图现实的Class
                 home_bgs.eq(bg_index)
-                    .addClass('active')
+                    .addClass('current')
                     .siblings()
-                    .removeClass('active');
+                    .removeClass('current');
                 // 更新该显示的下张图片索引
                 bg_index < home_bgs.length - 1 ? bg_index++ : bg_index = 0;
             },

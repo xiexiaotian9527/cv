@@ -30,8 +30,6 @@ body {
     transition: all 2s;
     background-repeat: no-repeat;
     background-position: center;
-    /* 小屏幕下用bg-size */
-    /* background-size: auto 100%; */
     opacity: 0;
 }
 
@@ -398,6 +396,21 @@ body {
 
 .project .content .demo .mask .link a:hover {
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.project .content .demo .mask .github-link {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+
+.project .content .demo .mask .github-link a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.project .content .demo .mask .github-link:hover a {
+    color: #000;
 }
 
 

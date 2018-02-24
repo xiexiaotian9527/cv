@@ -1,0 +1,10 @@
+/* 小屏幕下的背景图片定位 */
+
+html,
+body {
+    background-size: auto 100%;
+}
+
+.home .home-bgs .home-bg {
+    background-size: auto 100%;
+}

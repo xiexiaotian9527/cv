@@ -4,7 +4,7 @@ $(
         $('#fullpage').fullpage({
             scrollingSpeed: 500,
             navigation: true,
-            navigationTooltips: ['首页', '关于我', '技能掌握', '作品Demo', '联系我']
+            navigationTooltips: ['首页', '技能掌握', '作品Demo', '联系我']
         });
 
         // ---首页背景轮播效果---
